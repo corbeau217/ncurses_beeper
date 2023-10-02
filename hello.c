@@ -7,7 +7,7 @@ int main()
 
 	WINDOW *currWin = initscr();			/* Start curses mode 		  */
 
-
+    
 	// smack em in
 	char thems[getmaxx(currWin)+1];
 	for(int i = 0; i < sizeof(thems); i++){
